@@ -63,7 +63,7 @@ public class Neighbours extends Application {
         //test();    // <---------------- Uncomment to TEST!
 
         // %-distribution of RED, BLUE and NONE
-        double[] dist = {0.25, 0.25, 0.50};
+        double[] dist = {0.4, 0.4, 0.2};
         // Number of locations (places) in world (square)
         int nLocations = 9000;
 
