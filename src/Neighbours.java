@@ -132,7 +132,7 @@ public class Neighbours extends Application {
         Actor temp = world[i][j];
         world[i][j] = world[row][col];
         world[row][col] = temp;
-
+        //Done
     }
 
     private int redNeighbours(Actor[][] world, int row, int col) {
