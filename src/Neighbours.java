@@ -91,7 +91,7 @@ public class Neighbours extends Application {
 */
 
     private void updateActors(Actor[][] world, double threshold) {
-        Actor[][] currentWorld = world;
+        Actor[][] currentWorld = world.clone();
         for (int i = 0; i < world.length; i++) {
             for (int j = 0; j < world.length; j++) {
                 switch (currentWorld[i][j]) {
