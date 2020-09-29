@@ -77,21 +77,8 @@ public class Neighbours extends Application {
 
     //---------------- Methods ----------------------------
 
-    /*
-    private boolean isAllSatisfied(Actor[][] arr) {
-
-        for (int i = 0; i < arr.length; i++) {
-            for (int j = 0; j < arr.length; j++) {
-                arr
-            }
-        }
-
-        return true;
-    }
-*/
-
     private void updateActors(Actor[][] world, double threshold) {
-        Actor[][] currentWorld = world.clone();
+        Actor[][] currentWorld = world.clone(); //Alias!!
         for (int i = 0; i < world.length; i++) {
             for (int j = 0; j < world.length; j++) {
                 switch (currentWorld[i][j]) {
